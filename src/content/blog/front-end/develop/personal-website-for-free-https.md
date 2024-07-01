@@ -2,7 +2,6 @@
 title: 个人网站如何白嫖 HTTPS
 excerpt: 总所周知，HTTP 协议主要用于客户端和服务端的通信，但它本身也有一定缺点。那么 HTTPS 是如果保证安全性的呢？
 publishDate: '2022-07-05'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

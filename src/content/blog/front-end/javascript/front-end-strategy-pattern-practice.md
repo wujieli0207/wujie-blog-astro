@@ -2,7 +2,6 @@
 title: 拒绝复杂 if-else，前端策略模式实践
 excerpt: 在前端开发过程中面对复杂场景能能够更清晰的处理代码逻辑，其中策略模式在我的前端工作中的应用非常多，下面就展开讲讲策略模式在前端开发的具体应用
 publishDate: '2023-07-16'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

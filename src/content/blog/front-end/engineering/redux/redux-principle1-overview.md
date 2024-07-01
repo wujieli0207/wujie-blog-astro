@@ -2,7 +2,6 @@
 title: 探索 redux：状态管理的艺术
 excerpt: 要理解 redux，首先要理解 redux 中的几个核心概念：Store、Action、Reducer 和 Component
 publishDate: '2023-12-17'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

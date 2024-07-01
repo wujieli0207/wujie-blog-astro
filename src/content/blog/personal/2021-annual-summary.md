@@ -2,7 +2,6 @@
 title: 我的 2021 年总结
 excerpt: 我的 2021 年总结
 publishDate: '2021-12-22'
-isFeatured: true
 tags:
   - review
 seo:

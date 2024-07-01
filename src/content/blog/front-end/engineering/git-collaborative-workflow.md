@@ -2,7 +2,6 @@
 title: git 协作工作流方案
 excerpt: 团队协作开发过程中，git 必不可少，由于我之前使用的都是 SVN 作为代码管理工具，所以在切换成 git 的分布式版本管理工具之后，多少还是需要习惯的过程。另外由于最近两周 git 分支管理和协作上出过几次问题，所以也趁这个机会梳理一下 git 协作的工作流程
 publishDate: '2022-11-06'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

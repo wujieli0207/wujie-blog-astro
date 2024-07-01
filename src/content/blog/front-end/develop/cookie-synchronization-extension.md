@@ -3,7 +3,6 @@ title: 因为懒，我写了个同步 cookie 的插件
 excerpt: 在一次偶然的百度中发现 chrome 插件可以突破跨域的限制，获取到不同域名下的 cookie，然后百度了一下 chrome 插件的开发者文档，找到了监听 cookie 变化的事件，研究到这里，我觉得可以开始实现需求了
 
 publishDate: '2022-09-14'
-isFeatured: true
 tags:
   - front-end-tech
 seo:
@@ -89,7 +88,12 @@ if (evnNode === 'development') {
 
 ```ts
 // 在 useStorage.ts 中定义存储 localstorage 方法和更新 cookie 的方法
-import { ICookieTableDataSource, ICookie, TCookieConfig, LIST_KEY } from '../type'
+import {
+  ICookieTableDataSource,
+  ICookie,
+  TCookieConfig,
+  LIST_KEY,
+} from '../type'
 
 // 增加协议头
 function addProtocol(uri: string) {
@@ -98,7 +102,9 @@ function addProtocol(uri: string) {
 
 // 移除协议头
 function removeProtocol(uri: string) {
-  return uri.startsWith('http') ? uri.replace('http://', '').replace('https://', '') : uri
+  return uri.startsWith('http')
+    ? uri.replace('http://', '').replace('https://', '')
+    : uri
 }
 
 const useStorage = () => {
@@ -192,7 +198,10 @@ watch(isOpenSync, async () => {
 })
 
 async function handleSave(rowId: string) {
-  Object.assign(dataSource.value.filter((item) => item.id === rowId)[0], editableData[rowId])
+  Object.assign(
+    dataSource.value.filter((item) => item.id === rowId)[0],
+    editableData[rowId]
+  )
   delete editableData[rowId]
   // 更新 localStorage
   updateStorage(dataSource.value)
@@ -229,7 +238,9 @@ function addCookiesChangeEvent() {
 
     // 需求更新的 cookie
     const target = domainList.find((item) => {
-      return equalDomain(item.from, cookie.domain) && item.cookieName === cookie.name
+      return (
+        equalDomain(item.from, cookie.domain) && item.cookieName === cookie.name
+      )
     })
 
     if (target) {
@@ -266,7 +277,9 @@ function addProtocol(uri) {
 
 // 移除协议头
 function removeProtocol(uri) {
-  return uri.startsWith('http') ? uri.replace('http://', '').replace('https://', '') : uri
+  return uri.startsWith('http')
+    ? uri.replace('http://', '').replace('https://', '')
+    : uri
 }
 
 function equalDomain(domain1, domain2) {

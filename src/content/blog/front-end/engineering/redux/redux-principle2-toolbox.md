@@ -2,7 +2,6 @@
 title: redux 原理探秘：从 redux 到 react-redux 和 redux-toolkit
 excerpt: 在上一篇文章：探索 redux：状态管理的艺术 中介绍了 redux 和核心概念、核心原则和相关技术栈架构，下面这篇文章我们开始深入研究 redux 和相关工具 react-redux、redux-toolkit 的实现原理
 publishDate: '2023-12-21'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

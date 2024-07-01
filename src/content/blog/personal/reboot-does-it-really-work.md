@@ -2,7 +2,6 @@
 title: 重启，真的有用吗？
 excerpt: Gap Year、人生重启计划、开始一个新的产品、换一个新的 笔记 / 代办 / 日程管理 app，重启似乎有一种魔力，似乎只要重启就可以修复现在的一切问题
 publishDate: '2023-10-13'
-isFeatured: true
 tags:
   - review
 seo:

@@ -2,7 +2,6 @@
 title: 我的 2022 年中复盘：正式成为前端仔
 excerpt: 我的 2022 年中复盘：正式成为前端仔
 publishDate: '2022-07-10'
-isFeatured: true
 tags:
   - review
 seo:

@@ -47,31 +47,31 @@ const siteConfig: SiteConfig = {
   },
   headerNavLinks: [
     {
-      text: 'Home',
+      text: '首页',
       href: '/',
     },
     {
-      text: 'Projects',
+      text: '项目',
       href: '/projects',
     },
     {
-      text: 'Blog',
+      text: '博客',
       href: '/blog',
     },
     {
-      text: 'Tags',
+      text: '标签',
       href: '/tags',
     },
     {
-      text: 'About',
+      text: '关于',
       href: '/about',
     },
   ],
   footerNavLinks: [
-    {
-      text: 'Contact',
-      href: '/contact',
-    },
+    // {
+    //   text: 'Contact',
+    //   href: '/contact',
+    // },
   ],
   socialLinks: [
     {

@@ -2,7 +2,6 @@
 title: PC 端响应式布局方案
 excerpt: 最近在工作中做了一些响应式布局的功能和可视化大屏的开发，所以这里我也整理一下用到的响应式布局方案作为未来项目开发的参考方案
 publishDate: '2022-10-16'
-isFeatured: true
 tags:
   - front-end-tech
 seo:

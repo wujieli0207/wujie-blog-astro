@@ -2,7 +2,6 @@
 title: 《赡养人类》：可能是真的“末世预言”
 excerpt: 大刘的短篇科幻小说，不到一小时就能读完，但是看完久久不能平复，很像“末世预言”
 publishDate: '2024-04-14'
-isFeatured: true
 tags:
   - reading
 seo:

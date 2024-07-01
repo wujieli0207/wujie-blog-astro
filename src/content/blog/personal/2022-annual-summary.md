@@ -2,7 +2,6 @@
 title: 我的 2023 年总结：普通且忙碌
 excerpt: 我觉得今年的关键字可以用：普通、忙碌两个词来总结。普通是源于年中跳槽成功但也遗憾错过了很多很好的机会，忙碌则是技术工作的常态
 publishDate: '2023-01-20'
-isFeatured: true
 tags:
   - review
 seo:

@@ -2,7 +2,6 @@
 title: 前端代码整洁之道：lint 标准化
 excerpt: 统一规范的格式不仅看着舒服了一些，还可以提前检查出一些潜在的问题、增强项目的维护性，何乐而不为呢？这周正好完成了风格规范的统一，下面也借机梳理一下使用到的代码检查工具（简称为 lint 工具）的配置流程
 publishDate: '2022-07-19'
-isFeatured: true
 tags:
   - front-end-tech
 seo:
