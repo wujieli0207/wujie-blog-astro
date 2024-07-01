@@ -21,7 +21,7 @@ seo:
 
 ## 实现原理
 
-在 vite 启动 server 的过程中，会通过 `createPluginContainer` 方法创建插件容器，在之前的[文章](https://www.wujieli.com/blog/front/vite/vite-principle1-start-vite-project)提到过，插件容器主要有三个作用
+在 vite 启动 server 的过程中，会通过 `createPluginContainer` 方法创建插件容器，在之前的[文章](https://www.wujieli.com/blog/front-end/vite/vite-principle1-start-vite-project)提到过，插件容器主要有三个作用
 
 1. 管理的插件的生命周期
 2. 在插件之间传递上下文对象，上下文对象包含 vite 的内部状态和配置信息，这样插件通过上下文对象就能访问和修改 vite 内部状态
@@ -83,10 +83,14 @@ const container: PluginContainer = {
     let options = rollupOptions
     // 遍历所有 options 钩子
     for (const optionsHook of getSortedPluginHooks('options')) {
-      options = (await handleHookPromise(optionsHook.call(minimalContext, options))) || options
+      options =
+        (await handleHookPromise(optionsHook.call(minimalContext, options))) ||
+        options
     }
     if (options.acornInjectPlugins) {
-      parser = acorn.Parser.extend(...(arraify(options.acornInjectPlugins) as any))
+      parser = acorn.Parser.extend(
+        ...(arraify(options.acornInjectPlugins) as any)
+      )
     }
     return {
       acorn,
@@ -207,7 +211,10 @@ const container: PluginContainer = {
   async resolveId(rawId, importer = join(root, 'index.html'), options) {
     // 遍历已注册的插件，依次调用 resolveId 钩子
     for (const plugin of getSortedPlugins('resolveId')) {
-      const handler = 'handler' in plugin.resolveId ? plugin.resolveId.handler : plugin.resolveId
+      const handler =
+        'handler' in plugin.resolveId
+          ? plugin.resolveId.handler
+          : plugin.resolveId
 
       const result = await handleHookPromise(
         handler.call(ctx as any, rawId, importer, {
@@ -253,10 +260,13 @@ const container: PluginContainer = {
 
     // 循环遍历 load 插件
     for (const plugin of getSortedPlugins('load')) {
-      const handler = 'handler' in plugin.load ? plugin.load.handler : plugin.load
+      const handler =
+        'handler' in plugin.load ? plugin.load.handler : plugin.load
 
       // 执行 handler.call 方法
-      const result = await handleHookPromise(handler.call(ctx as any, id, { ssr }))
+      const result = await handleHookPromise(
+        handler.call(ctx as any, id, { ssr })
+      )
 
       // 如果存在返回结果的话，会更新模块信息
       if (result != null) {
@@ -386,7 +396,9 @@ export interface PluginContext extends MinimalPluginContext {
   info: LoggingFunction
   // 在构建过程中加载特定模块的代码
   load: (
-    options: { id: string; resolveDependencies?: boolean } & Partial<PartialNull<ModuleOptions>>
+    options: { id: string; resolveDependencies?: boolean } & Partial<
+      PartialNull<ModuleOptions>
+    >
   ) => Promise<ModuleInfo>
   /** @deprecated Use `this.getModuleIds` instead */
   // [已弃用] 提供所有模块 ID 的迭代器（Vite 不实现此方法）
@@ -405,7 +417,10 @@ export interface PluginContext extends MinimalPluginContext {
     }
   ) => Promise<ResolvedId | null>
   // 设置由其引用 ID 标识的已发出资源的内容
-  setAssetSource: (assetReferenceId: string, source: string | Uint8Array) => void
+  setAssetSource: (
+    assetReferenceId: string,
+    source: string | Uint8Array
+  ) => void
   // 将警告信息记录到 Rollup 构建输出
   warn: LoggingFunction
 }

@@ -10,7 +10,7 @@ seo:
     alt: redux 中间件解码：扩展 redux 功能的秘密
 ---
 
-在[上一篇文章](https://www.wujieli.com/blog/front/engineering/redux/redux-principle3-middleware)中，介绍了 redux、react-redux 和 redux-toolkit 的核心实现原理，这篇文章我们继续分析 redux 的另一个特性：中间件
+在[上一篇文章](https://www.wujieli.com/blog/front-end/engineering/redux/redux-principle3-middleware)中，介绍了 redux、react-redux 和 redux-toolkit 的核心实现原理，这篇文章我们继续分析 redux 的另一个特性：中间件
 
 redux 中间件是扩展 Redux 功能强大工具，它们充当着 action 被发送到 reducer 之前的拦截器，提供了一种灵活的方式来增强 Redux 的基本功能。接下来我们通过中间件注册和常用中间件实现原理两个方面分析 redux 中间件功能
 

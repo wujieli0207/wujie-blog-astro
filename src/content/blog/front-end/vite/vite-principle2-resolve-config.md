@@ -10,7 +10,7 @@ seo:
     alt: 深入 vite 原理，vite 是如何解析配置文件的
 ---
 
-在[上一篇文章](https://www.wujieli.com/blog/front/vite/vite-principle1-start-vite-project)介绍了在开发环境启动 vite 的整体实现过程，其中第一步配置文件解析是最为重要的部分，下面展开讲讲 vite 解析配置文件的实现原理
+在[上一篇文章](https://www.wujieli.com/blog/front-end/vite/vite-principle1-start-vite-project)介绍了在开发环境启动 vite 的整体实现过程，其中第一步配置文件解析是最为重要的部分，下面展开讲讲 vite 解析配置文件的实现原理
 
 ```ts
 const config = await resolveConfig(inlineConfig, 'serve')
@@ -40,7 +40,12 @@ export async function resolveConfig(inlineConfig: InlineConfig) {
   // ========== 1. 加载配置文件 ==========
   let { configFile } = config
   if (configFile !== false) {
-    const loadResult = await loadConfigFromFile(configEnv, configFile, config.root, config.logLevel)
+    const loadResult = await loadConfigFromFile(
+      configEnv,
+      configFile,
+      config.root,
+      config.logLevel
+    )
     if (loadResult) {
       // 命令行配置和配置文件配置合并
       config = mergeConfig(loadResult.config, config)
@@ -291,7 +296,9 @@ const filterPlugin = (p: Plugin) => {
 }
 
 // resolve plugins
-const rawUserPlugins = ((await asyncFlatten(config.plugins || [])) as Plugin[]).filter(filterPlugin)
+const rawUserPlugins = (
+  (await asyncFlatten(config.plugins || [])) as Plugin[]
+).filter(filterPlugin)
 
 // 对用户插件进行排序，获取 pre、normal、post 三类用户插件
 const [prePlugins, normalPlugins, postPlugins] = sortUserPlugins(rawUserPlugins)
@@ -469,7 +476,9 @@ const resolvedConfig: ResolvedConfig = {
   // 配置文件的路径
   configFile: configFile ? normalizePath(configFile) : undefined,
   // 配置文件依赖的文件路径列表
-  configFileDependencies: configFileDependencies.map((name) => normalizePath(path.resolve(name))),
+  configFileDependencies: configFileDependencies.map((name) =>
+    normalizePath(path.resolve(name))
+  ),
   // 内联的配置对象（命令行配置）
   inlineConfig,
   // 项目根目录的绝对路径
@@ -586,8 +595,13 @@ export async function resolvePlugins(
   const { modulePreload } = config.build
 
   return [
-    ...(isDepsOptimizerEnabled(config, false) || isDepsOptimizerEnabled(config, true)
-      ? [isBuild ? optimizedDepsBuildPlugin(config) : optimizedDepsPlugin(config)]
+    ...(isDepsOptimizerEnabled(config, false) ||
+    isDepsOptimizerEnabled(config, true)
+      ? [
+          isBuild
+            ? optimizedDepsBuildPlugin(config)
+            : optimizedDepsPlugin(config),
+        ]
       : []),
     isWatch ? ensureWatchPlugin() : null,
     isBuild ? metadataPlugin() : null,
@@ -598,7 +612,8 @@ export async function resolvePlugins(
     // ===== 2. 用户自定义 pre 插件(带有`enforce: "pre"`属性) =====
     ...prePlugins,
     // ===== 3. vite 核心插件 =====
-    modulePreload === true || (typeof modulePreload === 'object' && modulePreload.polyfill)
+    modulePreload === true ||
+    (typeof modulePreload === 'object' && modulePreload.polyfill)
       ? modulePreloadPolyfillPlugin(config)
       : null,
     resolvePlugin({
@@ -642,7 +657,9 @@ export async function resolvePlugins(
     ...postPlugins,
     ...buildPlugins.post,
     // ===== 6. 开发特有插件 =====
-    ...(isBuild ? [] : [clientInjectionsPlugin(config), importAnalysisPlugin(config)]),
+    ...(isBuild
+      ? []
+      : [clientInjectionsPlugin(config), importAnalysisPlugin(config)]),
   ].filter(Boolean) as Plugin[]
 }
 ```
@@ -650,12 +667,15 @@ export async function resolvePlugins(
 获取所有插件之后，通过 `createPluginHookUtils` 方法添加插件操作工具函数，主要是获取排序后的插件和排序后的插件 hooks，这里单独封装的目的主要是将获取结果放到缓存中，提升性能
 
 ```ts
-export function createPluginHookUtils(plugins: readonly Plugin[]): PluginHookUtils {
+export function createPluginHookUtils(
+  plugins: readonly Plugin[]
+): PluginHookUtils {
   const sortedPluginsCache = new Map<keyof Plugin, Plugin[]>()
 
   // 获取排序后的插件
   function getSortedPlugins(hookName: keyof Plugin): Plugin[] {
-    if (sortedPluginsCache.has(hookName)) return sortedPluginsCache.get(hookName)!
+    if (sortedPluginsCache.has(hookName))
+      return sortedPluginsCache.get(hookName)!
     const sorted = getSortedPluginsByHook(hookName, plugins)
     sortedPluginsCache.set(hookName, sorted)
     return sorted
@@ -668,7 +688,9 @@ export function createPluginHookUtils(plugins: readonly Plugin[]): PluginHookUti
     return plugins
       .map((p) => {
         const hook = p[hookName]!
-        return typeof hook === 'object' && 'handler' in hook ? hook.handler : hook
+        return typeof hook === 'object' && 'handler' in hook
+          ? hook.handler
+          : hook
       })
       .filter(Boolean)
   }
@@ -684,7 +706,9 @@ export function createPluginHookUtils(plugins: readonly Plugin[]): PluginHookUti
 
 ```ts
 await Promise.all([
-  ...resolved.getSortedPluginHooks('configResolved').map((hook) => hook(resolved)),
+  ...resolved
+    .getSortedPluginHooks('configResolved')
+    .map((hook) => hook(resolved)),
   ...resolvedConfig.worker
     .getSortedPluginHooks('configResolved')
     .map((hook) => hook(workerResolved)),

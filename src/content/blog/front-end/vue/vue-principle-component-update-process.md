@@ -10,7 +10,7 @@ seo:
     alt: vue3 源码学习：组件更新过程
 ---
 
-在前一篇[文章](https://www.wujieli.com/blog/front/vue/vue-principle-template-ref)中，我介绍了 vue3 中组件初次渲染为 DOM 元素的过程，下面介绍一下当组件发生变化时，vue3 更新组件的过程
+在前一篇[文章](https://www.wujieli.com/blog/front-end/vue/vue-principle-template-ref)中，我介绍了 vue3 中组件初次渲染为 DOM 元素的过程，下面介绍一下当组件发生变化时，vue3 更新组件的过程
 
 组件类型的 vnode 挂载的过程时，在 `setupRenderEffect` 方法中，定义了一个 `componentUpdateFn` 方法并通过 `ReactiveEffect` 转换一个副作用的渲染函数，当组件状态发生变化时，会自动触发副作用函数 `componentUpdateFn` 执行，下面我们来看更新时的函数执行逻辑
 

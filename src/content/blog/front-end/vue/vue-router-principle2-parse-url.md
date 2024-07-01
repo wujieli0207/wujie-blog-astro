@@ -10,7 +10,7 @@ seo:
     alt: vue Router 4源码解析2：url 如何跳转
 ---
 
-在[上一篇文章](https://www.wujieli.com/blog/front/vue/vue-router-principle1-create-router)我介绍了如何创建路由，下面我们来分析当输入一个 url 时，如何通过路由跳转到对应页面
+在[上一篇文章](https://www.wujieli.com/blog/front-end/vue/vue-router-principle1-create-router)我介绍了如何创建路由，下面我们来分析当输入一个 url 时，如何通过路由跳转到对应页面
 
 ## 基础概念介绍
 
