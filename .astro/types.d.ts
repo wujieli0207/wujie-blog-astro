@@ -423,13 +423,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"reading/the-wages-of-humanity.mdx": {
-	id: "reading/the-wages-of-humanity.mdx";
+"reading/the-wages-of-humanity.md": {
+	id: "reading/the-wages-of-humanity.md";
   slug: "reading/the-wages-of-humanity";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
 };
 "pages": {
 "about.md": {
