@@ -1,5 +1,6 @@
 import { type CollectionEntry } from 'astro:content'
 import { slugify } from './common-utils'
+import { TAG_MAP } from '../data/conmon'
 
 export function sortItemsByDateDesc(
   itemA: CollectionEntry<'blog' | 'projects'>,
@@ -9,11 +10,6 @@ export function sortItemsByDateDesc(
     new Date(itemB.data.publishDate).getTime() -
     new Date(itemA.data.publishDate).getTime()
   )
-}
-
-// tag 中文名映射
-const TAG_MAP: Record<string, string> = {
-  review: '复盘',
 }
 
 export function getAllTags(posts: CollectionEntry<'blog'>[]) {

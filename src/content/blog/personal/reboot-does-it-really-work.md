@@ -7,7 +7,7 @@ tags:
   - review
 seo:
   image:
-    src: '/post-1.jpg'
+    src: '/personal.jpg'
     alt: 重启，真的有用吗？
 ---
 

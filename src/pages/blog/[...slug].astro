@@ -7,6 +7,7 @@ import PostPreview from '../../components/PostPreview.astro';
 import Subscribe from '../../components/Subscribe.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 import { slugify } from '../../utils/common-utils';
+import { TAG_MAP } from '../../data/conmon';
 
 export async function getStaticPaths() {
     const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
@@ -56,7 +57,7 @@ const { Content } = await post.render();
                     <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
                         {tags.map((tag) => (
                             <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
-                                #{tag}
+                                #{TAG_MAP[tag]}
                             </a>
                         ))}
                     </div>

@@ -136,6 +136,55 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"personal/2021-annual-summary.md": {
+	id: "personal/2021-annual-summary.md";
+  slug: "personal/2021-annual-summary";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"personal/2022-annual-summary.md": {
+	id: "personal/2022-annual-summary.md";
+  slug: "personal/2022-annual-summary";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"personal/2022-half-yearly-summary.md": {
+	id: "personal/2022-half-yearly-summary.md";
+  slug: "personal/2022-half-yearly-summary";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"personal/2024-half-yearly-summary.md": {
+	id: "personal/2024-half-yearly-summary.md";
+  slug: "personal/2024-half-yearly-summary";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"personal/life-principle-honest.mdx": {
+	id: "personal/life-principle-honest.mdx";
+  slug: "personal/life-principle-honest";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"personal/life-principle-long-term.mdx": {
+	id: "personal/life-principle-long-term.mdx";
+  slug: "personal/life-principle-long-term";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"personal/life-principle-minimalism.mdx": {
+	id: "personal/life-principle-minimalism.mdx";
+  slug: "personal/life-principle-minimalism";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 "personal/reboot-does-it-really-work.md": {
 	id: "personal/reboot-does-it-really-work.md";
   slug: "personal/reboot-does-it-really-work";
@@ -143,6 +192,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"reading/the-wages-of-humanity.mdx": {
+	id: "reading/the-wages-of-humanity.mdx";
+  slug: "reading/the-wages-of-humanity";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
 };
 "pages": {
 "about.md": {
