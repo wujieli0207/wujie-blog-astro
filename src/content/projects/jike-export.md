@@ -1,6 +1,6 @@
 ---
 title: '即刻导出'
-description: 即刻导出是一个 chrome 插件，核心功能是导出即刻动态和收藏为本地文件
+description: 是一个 chrome 插件，核心功能是导出即刻动态和收藏为本地文件
 publishDate: '2024-05-08'
 isFeatured: true
 seo:

@@ -86,14 +86,18 @@ const siteConfig: SiteConfig = {
       text: '独立开发沉思录',
       href: 'https://www.hackthinking.com/',
     },
+    {
+      text: '即刻导出',
+      href: 'https://jike-export.wujieli.com/',
+    },
   ],
   hero: {
     title: '你好，同路人',
-    text: '欢迎来到我的数字花园，在这里我会记录我关于技术、产品、设计、商业、个人生活的思考',
-    // image: {
-    //   src: '/hero.jpeg',
-    //   alt: 'A person sitting at a desk in front of a computer',
-    // },
+    text: '欢迎来到我的博客，在这里我会记录我关于技术、产品、设计、商业、个人生活的思考',
+    image: {
+      src: '/hero.jpg',
+      alt: 'My blog is my digit garden',
+    },
     actions: [
       // {
       //   text: 'Get in Touch',
