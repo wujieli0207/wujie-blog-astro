@@ -1,6 +1,6 @@
 import { type CollectionEntry } from 'astro:content'
 import { slugify } from './common-utils'
-import { TAG_MAP } from '../data/conmon'
+import { TAG_MAP } from '../data/common'
 
 export function sortItemsByDateDesc(
   itemA: CollectionEntry<'blog' | 'projects'>,
