@@ -10,7 +10,7 @@ seo:
     alt: 深入 vite 原理，vite 是如何解析配置文件的
 ---
 
-在[上一篇文章](https://www.wujieli.com/blog/front-end/vite/vite-principle1-start-vite-project)介绍了在开发环境启动 vite 的整体实现过程，其中第一步配置文件解析是最为重要的部分，下面展开讲讲 vite 解析配置文件的实现原理
+在[上一篇文章](https://www.wujieli.com/blog/front/vite/vite-principle1-start-vite-project)介绍了在开发环境启动 vite 的整体实现过程，其中第一步配置文件解析是最为重要的部分，下面展开讲讲 vite 解析配置文件的实现原理
 
 ```ts
 const config = await resolveConfig(inlineConfig, 'serve')

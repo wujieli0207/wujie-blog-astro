@@ -10,7 +10,7 @@ seo:
     alt: redux 原理探秘：从 redux 到 react-redux 和 redux-toolkit
 ---
 
-在[上一篇文章](https://www.wujieli.com/blog/front-end/engineering/redux/redux-principle1-overview)中介绍了 redux 和核心概念、核心原则和相关技术栈架构，下面这篇文章我们开始深入研究 redux 和相关工具 react-redux、redux-toolkit 的实现原理
+在[上一篇文章](https://www.wujieli.com/blog/front/engineering/redux/redux-principle1-overview)中介绍了 redux 和核心概念、核心原则和相关技术栈架构，下面这篇文章我们开始深入研究 redux 和相关工具 react-redux、redux-toolkit 的实现原理
 
 ## redux 实现原理
 
