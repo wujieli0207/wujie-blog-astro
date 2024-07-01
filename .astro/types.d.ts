@@ -439,20 +439,6 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
-"contact.md": {
-	id: "contact.md";
-  slug: "contact";
-  body: string;
-  collection: "pages";
-  data: InferEntrySchema<"pages">
-} & { render(): Render[".md"] };
-"terms.md": {
-	id: "terms.md";
-  slug: "terms";
-  body: string;
-  collection: "pages";
-  data: InferEntrySchema<"pages">
-} & { render(): Render[".md"] };
 };
 "projects": {
 "jike-export.md": {
