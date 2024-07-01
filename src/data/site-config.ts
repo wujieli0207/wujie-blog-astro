@@ -35,6 +35,7 @@ export type SiteConfig = {
   subscribe?: Subscribe
   postsPerPage?: number
   projectsPerPage?: number
+  googleAnalyticsId?: string
 }
 
 const siteConfig: SiteConfig = {
@@ -112,6 +113,7 @@ const siteConfig: SiteConfig = {
   // },
   postsPerPage: 8,
   projectsPerPage: 8,
+  googleAnalyticsId: 'G-PS72Y26W77',
 }
 
 export default siteConfig
