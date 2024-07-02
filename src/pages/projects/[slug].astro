@@ -36,7 +36,7 @@ const { Content } = await project.render();
     {
         (prevProject || nextProject) && (
             <div class="my-16 sm:my-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">View Next</h2>
+                <h2 class="mb-12 text-xl font-serif sm:mb-16 sm:text-2xl">继续阅读</h2>
                 {nextProject && <ProjectPreview project={nextProject} class="mb-10 sm:mb-12" headingLevel="h3" />}
                 {prevProject && <ProjectPreview project={prevProject} class="mb-10 sm:mb-12" headingLevel="h3" />}
             </div>

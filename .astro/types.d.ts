@@ -136,233 +136,233 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"front-end/css/pc-responsive-layout-solution.md": {
-	id: "front-end/css/pc-responsive-layout-solution.md";
-  slug: "front-end/css/pc-responsive-layout-solution";
+"front/css/pc-responsive-layout-solution.md": {
+	id: "front/css/pc-responsive-layout-solution.md";
+  slug: "front/css/pc-responsive-layout-solution";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/develop/cookie-synchronization-extension.md": {
-	id: "front-end/develop/cookie-synchronization-extension.md";
-  slug: "front-end/develop/cookie-synchronization-extension";
+"front/develop/cookie-synchronization-extension.md": {
+	id: "front/develop/cookie-synchronization-extension.md";
+  slug: "front/develop/cookie-synchronization-extension";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/develop/personal-website-for-free-https.md": {
-	id: "front-end/develop/personal-website-for-free-https.md";
-  slug: "front-end/develop/personal-website-for-free-https";
+"front/develop/personal-website-for-free-https.md": {
+	id: "front/develop/personal-website-for-free-https.md";
+  slug: "front/develop/personal-website-for-free-https";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/engineering/clean-code-lint-standard.md": {
-	id: "front-end/engineering/clean-code-lint-standard.md";
-  slug: "front-end/engineering/clean-code-lint-standard";
+"front/engineering/clean-code-lint-standard.md": {
+	id: "front/engineering/clean-code-lint-standard.md";
+  slug: "front/engineering/clean-code-lint-standard";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/engineering/git-collaborative-workflow.md": {
-	id: "front-end/engineering/git-collaborative-workflow.md";
-  slug: "front-end/engineering/git-collaborative-workflow";
+"front/engineering/git-collaborative-workflow.md": {
+	id: "front/engineering/git-collaborative-workflow.md";
+  slug: "front/engineering/git-collaborative-workflow";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/engineering/redux/redux-principle1-overview.md": {
-	id: "front-end/engineering/redux/redux-principle1-overview.md";
-  slug: "front-end/engineering/redux/redux-principle1-overview";
+"front/engineering/redux/redux-principle1-overview.md": {
+	id: "front/engineering/redux/redux-principle1-overview.md";
+  slug: "front/engineering/redux/redux-principle1-overview";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/engineering/redux/redux-principle2-toolbox.md": {
-	id: "front-end/engineering/redux/redux-principle2-toolbox.md";
-  slug: "front-end/engineering/redux/redux-principle2-toolbox";
+"front/engineering/redux/redux-principle2-toolbox.md": {
+	id: "front/engineering/redux/redux-principle2-toolbox.md";
+  slug: "front/engineering/redux/redux-principle2-toolbox";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/engineering/redux/redux-principle3-middleware.md": {
-	id: "front-end/engineering/redux/redux-principle3-middleware.md";
-  slug: "front-end/engineering/redux/redux-principle3-middleware";
+"front/engineering/redux/redux-principle3-middleware.md": {
+	id: "front/engineering/redux/redux-principle3-middleware.md";
+  slug: "front/engineering/redux/redux-principle3-middleware";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/javascript/array-method-summary.md": {
-	id: "front-end/javascript/array-method-summary.md";
-  slug: "front-end/javascript/array-method-summary";
+"front/javascript/array-method-summary.md": {
+	id: "front/javascript/array-method-summary.md";
+  slug: "front/javascript/array-method-summary";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/javascript/front-end-strategy-pattern-practice.md": {
-	id: "front-end/javascript/front-end-strategy-pattern-practice.md";
-  slug: "front-end/javascript/front-end-strategy-pattern-practice";
+"front/javascript/front-end-strategy-pattern-practice.md": {
+	id: "front/javascript/front-end-strategy-pattern-practice.md";
+  slug: "front/javascript/front-end-strategy-pattern-practice";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/javascript/inheritance-implementation.md": {
-	id: "front-end/javascript/inheritance-implementation.md";
-  slug: "front-end/javascript/inheritance-implementation";
+"front/javascript/inheritance-implementation.md": {
+	id: "front/javascript/inheritance-implementation.md";
+  slug: "front/javascript/inheritance-implementation";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/javascript/what-is-an-array-like.md": {
-	id: "front-end/javascript/what-is-an-array-like.md";
-  slug: "front-end/javascript/what-is-an-array-like";
+"front/javascript/what-is-an-array-like.md": {
+	id: "front/javascript/what-is-an-array-like.md";
+  slug: "front/javascript/what-is-an-array-like";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/performance/front-performance-debounce-throttle.md": {
-	id: "front-end/performance/front-performance-debounce-throttle.md";
-  slug: "front-end/performance/front-performance-debounce-throttle";
+"front/performance/front-performance-debounce-throttle.md": {
+	id: "front/performance/front-performance-debounce-throttle.md";
+  slug: "front/performance/front-performance-debounce-throttle";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/performance/front-performance-lazy-loading-images.md": {
-	id: "front-end/performance/front-performance-lazy-loading-images.md";
-  slug: "front-end/performance/front-performance-lazy-loading-images";
+"front/performance/front-performance-lazy-loading-images.md": {
+	id: "front/performance/front-performance-lazy-loading-images.md";
+  slug: "front/performance/front-performance-lazy-loading-images";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/performance/select-virtual-scrolling-optimize.md": {
-	id: "front-end/performance/select-virtual-scrolling-optimize.md";
-  slug: "front-end/performance/select-virtual-scrolling-optimize";
+"front/performance/select-virtual-scrolling-optimize.md": {
+	id: "front/performance/select-virtual-scrolling-optimize.md";
+  slug: "front/performance/select-virtual-scrolling-optimize";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/react/react-principle-core-package-structure.md": {
-	id: "front-end/react/react-principle-core-package-structure.md";
-  slug: "front-end/react/react-principle-core-package-structure";
+"front/react/react-principle-core-package-structure.md": {
+	id: "front/react/react-principle-core-package-structure.md";
+  slug: "front/react/react-principle-core-package-structure";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/react/react-principle-createElement.md": {
-	id: "front-end/react/react-principle-createElement.md";
-  slug: "front-end/react/react-principle-createelement";
+"front/react/react-principle-createElement.md": {
+	id: "front/react/react-principle-createElement.md";
+  slug: "front/react/react-principle-createelement";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/develop-upgrade-vite-step.md": {
-	id: "front-end/vite/develop-upgrade-vite-step.md";
-  slug: "front-end/vite/develop-upgrade-vite-step";
+"front/vite/develop-upgrade-vite-step.md": {
+	id: "front/vite/develop-upgrade-vite-step.md";
+  slug: "front/vite/develop-upgrade-vite-step";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/vite-principle1-start-vite-project.md": {
-	id: "front-end/vite/vite-principle1-start-vite-project.md";
-  slug: "front-end/vite/vite-principle1-start-vite-project";
+"front/vite/vite-principle1-start-vite-project.md": {
+	id: "front/vite/vite-principle1-start-vite-project.md";
+  slug: "front/vite/vite-principle1-start-vite-project";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/vite-principle2-resolve-config.md": {
-	id: "front-end/vite/vite-principle2-resolve-config.md";
-  slug: "front-end/vite/vite-principle2-resolve-config";
+"front/vite/vite-principle2-resolve-config.md": {
+	id: "front/vite/vite-principle2-resolve-config.md";
+  slug: "front/vite/vite-principle2-resolve-config";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/vite-principle3-vite-optimizeDeps.md": {
-	id: "front-end/vite/vite-principle3-vite-optimizeDeps.md";
-  slug: "front-end/vite/vite-principle3-vite-optimizedeps";
+"front/vite/vite-principle3-vite-optimizeDeps.md": {
+	id: "front/vite/vite-principle3-vite-optimizeDeps.md";
+  slug: "front/vite/vite-principle3-vite-optimizedeps";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/vite-principle4-dev-plugin.md": {
-	id: "front-end/vite/vite-principle4-dev-plugin.md";
-  slug: "front-end/vite/vite-principle4-dev-plugin";
+"front/vite/vite-principle4-dev-plugin.md": {
+	id: "front/vite/vite-principle4-dev-plugin.md";
+  slug: "front/vite/vite-principle4-dev-plugin";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vite/vite-principle5-hmr.md": {
-	id: "front-end/vite/vite-principle5-hmr.md";
-  slug: "front-end/vite/vite-principle5-hmr";
+"front/vite/vite-principle5-hmr.md": {
+	id: "front/vite/vite-principle5-hmr.md";
+  slug: "front/vite/vite-principle5-hmr";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/pinia-principle.md": {
-	id: "front-end/vue/pinia-principle.md";
-  slug: "front-end/vue/pinia-principle";
+"front/vue/pinia-principle.md": {
+	id: "front/vue/pinia-principle.md";
+  slug: "front/vue/pinia-principle";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-performance-optimization.md": {
-	id: "front-end/vue/vue-performance-optimization.md";
-  slug: "front-end/vue/vue-performance-optimization";
+"front/vue/vue-performance-optimization.md": {
+	id: "front/vue/vue-performance-optimization.md";
+  slug: "front/vue/vue-performance-optimization";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-principle-component-mount-process.md": {
-	id: "front-end/vue/vue-principle-component-mount-process.md";
-  slug: "front-end/vue/vue-principle-component-mount-process";
+"front/vue/vue-principle-component-mount-process.md": {
+	id: "front/vue/vue-principle-component-mount-process.md";
+  slug: "front/vue/vue-principle-component-mount-process";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-principle-component-update-process.md": {
-	id: "front-end/vue/vue-principle-component-update-process.md";
-  slug: "front-end/vue/vue-principle-component-update-process";
+"front/vue/vue-principle-component-update-process.md": {
+	id: "front/vue/vue-principle-component-update-process.md";
+  slug: "front/vue/vue-principle-component-update-process";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-principle-reactive.md": {
-	id: "front-end/vue/vue-principle-reactive.md";
-  slug: "front-end/vue/vue-principle-reactive";
+"front/vue/vue-principle-reactive.md": {
+	id: "front/vue/vue-principle-reactive.md";
+  slug: "front/vue/vue-principle-reactive";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-principle-template-ref.md": {
-	id: "front-end/vue/vue-principle-template-ref.md";
-  slug: "front-end/vue/vue-principle-template-ref";
+"front/vue/vue-principle-template-ref.md": {
+	id: "front/vue/vue-principle-template-ref.md";
+  slug: "front/vue/vue-principle-template-ref";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-promise-error-catch.md": {
-	id: "front-end/vue/vue-promise-error-catch.md";
-  slug: "front-end/vue/vue-promise-error-catch";
+"front/vue/vue-promise-error-catch.md": {
+	id: "front/vue/vue-promise-error-catch.md";
+  slug: "front/vue/vue-promise-error-catch";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-router-principle1-create-router.md": {
-	id: "front-end/vue/vue-router-principle1-create-router.md";
-  slug: "front-end/vue/vue-router-principle1-create-router";
+"front/vue/vue-router-principle1-create-router.md": {
+	id: "front/vue/vue-router-principle1-create-router.md";
+  slug: "front/vue/vue-router-principle1-create-router";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-router-principle2-parse-url.md": {
-	id: "front-end/vue/vue-router-principle2-parse-url.md";
-  slug: "front-end/vue/vue-router-principle2-parse-url";
+"front/vue/vue-router-principle2-parse-url.md": {
+	id: "front/vue/vue-router-principle2-parse-url.md";
+  slug: "front/vue/vue-router-principle2-parse-url";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"front-end/vue/vue-url-parameter-encryption.md": {
-	id: "front-end/vue/vue-url-parameter-encryption.md";
-  slug: "front-end/vue/vue-url-parameter-encryption";
+"front/vue/vue-url-parameter-encryption.md": {
+	id: "front/vue/vue-url-parameter-encryption.md";
+  slug: "front/vue/vue-url-parameter-encryption";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -441,6 +441,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "projects": {
+"hack-thinking.md": {
+	id: "hack-thinking.md";
+  slug: "hack-thinking";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "jike-export.md": {
 	id: "jike-export.md";
   slug: "jike-export";
