@@ -5,7 +5,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      sans: [...defaultTheme.fontFamily.sans],
+      sans: ['PingFang SC', 'Microsoft YaHei', ...defaultTheme.fontFamily.sans],
       serif: ['LXGWWenKai', ...defaultTheme.fontFamily.serif],
     },
     extend: {
