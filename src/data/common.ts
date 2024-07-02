@@ -4,4 +4,5 @@ export const TAG_MAP: Record<string, string> = {
   reading: '读书',
   'life-philosophy': '人生哲学',
   'front-end-tech': '前端技术',
+  weekly: '周刊',
 }
