@@ -1,6 +1,6 @@
 ---
 title: 独立开发沉思录
-description: 是一个 chrome 插件，核心功能是导出即刻动态和收藏为本地文件
+description: 分享关于独立开发技术、产品、设计、营销、个人成长的内容，同时每周发布一篇独立开发沉思录周刊
 publishDate: '2024-06-29'
 isFeatured: true
 seo:
