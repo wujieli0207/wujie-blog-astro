@@ -61,13 +61,7 @@ module.exports = {
               borderLeft: '2px solid #5678C7',
               fontSize: '0.8em',
               fontStyle: 'normal',
-            },
-          },
-        },
-        lg: {
-          css: {
-            blockquote: {
-              paddingLeft: 0,
+              paddingLeft: 2,
             },
           },
         },
