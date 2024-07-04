@@ -1,8 +1,9 @@
 ---
 title: 2024 年中复盘：想法太多，落地太少
-excerpt: 虽然失败的项目很多，但是还是有一个项目竟然有一些意外的收获
+excerpt: 2024 已经过半，
 publishDate: '2024-07-11'
 isFeatured: true
+showToc: true
 tags:
   - review
 seo:
@@ -12,6 +13,8 @@ seo:
 ---
 
 ![](https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/202407041557522.jpg)
+
+<!-- toc -->
 
 ## 关于工作
 
