@@ -430,6 +430,111 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"weekly/vol1.md": {
+	id: "weekly/vol1.md";
+  slug: "weekly/vol1";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol10.md": {
+	id: "weekly/vol10.md";
+  slug: "weekly/vol10";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol11.md": {
+	id: "weekly/vol11.md";
+  slug: "weekly/vol11";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol12.md": {
+	id: "weekly/vol12.md";
+  slug: "weekly/vol12";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol13.md": {
+	id: "weekly/vol13.md";
+  slug: "weekly/vol13";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol14.md": {
+	id: "weekly/vol14.md";
+  slug: "weekly/vol14";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol15.md": {
+	id: "weekly/vol15.md";
+  slug: "weekly/vol15";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol2.md": {
+	id: "weekly/vol2.md";
+  slug: "weekly/vol2";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol3.md": {
+	id: "weekly/vol3.md";
+  slug: "weekly/vol3";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol4.md": {
+	id: "weekly/vol4.md";
+  slug: "weekly/vol4";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol5.md": {
+	id: "weekly/vol5.md";
+  slug: "weekly/vol5";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol6.md": {
+	id: "weekly/vol6.md";
+  slug: "weekly/vol6";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol7.md": {
+	id: "weekly/vol7.md";
+  slug: "weekly/vol7";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol8.md": {
+	id: "weekly/vol8.md";
+  slug: "weekly/vol8";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"weekly/vol9.md": {
+	id: "weekly/vol9.md";
+  slug: "weekly/vol9";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 "pages": {
 "about.md": {
