@@ -43,7 +43,7 @@ const siteConfig: SiteConfig = {
   subtitle: '人们会被自己热爱的事物改变，而没有人因为给予而贫穷',
   description: '人们会被自己热爱的事物改变，而没有人因为给予而贫穷',
   image: {
-    src: '/dante-preview.jpg',
+    src: '/og.png',
     alt: 'Dante - Astro.js and Tailwind CSS theme',
   },
   headerNavLinks: [
