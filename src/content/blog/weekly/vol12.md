@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol12.jpg'
     alt: vol12.远离思想钢印，总是双重思想
+hidden: true
 ---
 
 ## 卷首语

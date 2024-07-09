@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol5.jpg'
     alt: vol5.面向结果而不是过程
+hidden: true
 ---
 
 ## 卷首语

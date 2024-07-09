@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol7.jpg'
     alt: vol7.健康的人有 10000 个愿望，生病的人只有 1 个愿望
+hidden: true
 ---
 
 这两周都在发烧生病，最高到了 39 度，其他时候也大多时候都是低烧状态。没有生病的时候有很多的愿望，而生病的时候唯一的愿望就是健康

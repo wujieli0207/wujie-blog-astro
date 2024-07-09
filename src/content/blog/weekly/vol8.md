@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol8.jpg'
     alt: vol8.救赎之道，就在其中
+hidden: true
 ---
 
 ## 卷首语

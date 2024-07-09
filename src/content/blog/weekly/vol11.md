@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol11.jpg'
     alt: vol11.每一个涅槃重生的念头，都可能是未来的你发出的穿越求救
+hidden: true
 ---
 
 ## 卷首语

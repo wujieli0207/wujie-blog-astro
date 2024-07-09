@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol13.jpg'
     alt: vol13.构建系统，而不是目标
+hidden: true
 ---
 
 ## 卷首语

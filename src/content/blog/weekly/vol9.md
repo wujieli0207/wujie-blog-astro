@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol9.jpg'
     alt: vol9.自由 = 能力 - 欲望
+hidden: true
 ---
 
 ## 卷首语

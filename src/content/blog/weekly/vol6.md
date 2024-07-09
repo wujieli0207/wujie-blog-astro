@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol6.jpg'
     alt: vol6. 所有命运馈赠的礼物，都在暗中标好了价格
+hidden: true
 ---
 
 ## 卷首语

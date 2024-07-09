@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol2.jpg'
     alt: vol2.短期有利的决策，长期未必甚至有毒
+hidden: true
 ---
 
 ## 卷首语

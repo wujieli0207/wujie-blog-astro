@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol14.jpg'
     alt: vol14. 没有奇迹会发生，但情况也不会那么糟
+hidden: true
 ---
 
 ## 卷首语

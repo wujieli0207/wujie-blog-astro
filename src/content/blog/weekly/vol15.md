@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol15.jpg'
     alt: vol15.人生是一场入妄破妄的修行
+hidden: true
 ---
 
 ## 卷首语

@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol3.jpg'
     alt: vol3.欢迎来到荷兰
+hidden: true
 ---
 
 ## 卷首语

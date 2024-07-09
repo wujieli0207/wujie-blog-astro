@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol1.jpg'
     alt: vol1.活在这珍贵的人间，太阳强烈，水波温柔
+hidden: true
 ---
 
 ## 卷首语

@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol4.jpg'
     alt: vol4.收入是一连串的事件
+hidden: true
 ---
 
 ## 卷首语

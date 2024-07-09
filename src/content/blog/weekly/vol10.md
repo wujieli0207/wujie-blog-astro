@@ -8,6 +8,7 @@ seo:
   image:
     src: 'https://notesimgs.oss-cn-shanghai.aliyuncs.com/img/newsletter-vol10.jpg'
     alt: vol10.接纳人生的有限性，优先推动大事发生
+hidden: true
 ---
 
 ## 卷首语
