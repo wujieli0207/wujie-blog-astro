@@ -9,7 +9,9 @@ import siteConfig from '../../data/site-config';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-    const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
+    const posts = (await getCollection('blog'))
+    .filter(post => post.data?.hidden !== true)
+    .sort(sortItemsByDateDesc);
     return paginate(posts, { pageSize: siteConfig.postsPerPage || 4 });
 }
 
