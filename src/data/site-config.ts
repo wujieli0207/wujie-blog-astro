@@ -76,6 +76,10 @@ const siteConfig: SiteConfig = {
   ],
   socialLinks: [
     {
+      text: 'RSS',
+      href: 'https://wujieli.com/rss.xml',
+    },
+    {
       text: 'Github',
       href: 'https://github.com/wujieli0207',
     },
