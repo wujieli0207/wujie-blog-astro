@@ -1,6 +1,6 @@
 ---
 title: 2024 年中复盘：想法太多，落地太少
-excerpt: 2024 已经过半，
+excerpt: 2024 已经过半，最大的感受就是想法太多，落地太少，这里做一些总结
 publishDate: '2024-07-11'
 isFeatured: true
 showToc: true
