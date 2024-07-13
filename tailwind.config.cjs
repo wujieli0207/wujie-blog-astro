@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['PingFang SC', 'Microsoft YaHei', ...defaultTheme.fontFamily.sans],
-      serif: ['LXGWWenKai', ...defaultTheme.fontFamily.serif],
+      serif: ['LXGW WenKai', ...defaultTheme.fontFamily.serif],
     },
     extend: {
       textColor: {
