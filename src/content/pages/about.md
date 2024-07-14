@@ -24,7 +24,7 @@ title: 关于我
 哪里可以找到我
 
 - [邮箱](mailto:wujieli0207@outlook.com)
-- [个人博客](https://www.wujieli.top/)
+- [个人博客](https://www.wujieli.com/)
 - [即刻](https://web.okjike.com/me)
 - [github](https://github.com/wujieli0207)
 - [Twitter](https://x.com/li_wujie)
