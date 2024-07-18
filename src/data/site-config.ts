@@ -95,6 +95,10 @@ const siteConfig: SiteConfig = {
       text: '即刻导出',
       href: 'https://jike-export.wujieli.com/',
     },
+    {
+      text: 'Awesome Landing Page',
+      href: 'https://awesomelandingpage.com/',
+    },
   ],
   hero: {
     title: '你好，同路人',
