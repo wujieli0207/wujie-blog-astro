@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
       href: 'https://jike-export.wujieli.com/',
     },
     {
-      text: 'URL to Anything',
+      text: 'URL to Any',
       href: 'https://www.urltoany.com/',
     },
   ],
