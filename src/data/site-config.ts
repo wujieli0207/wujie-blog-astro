@@ -99,6 +99,10 @@ const siteConfig: SiteConfig = {
       text: 'URL to Any',
       href: 'https://www.urltoany.com/',
     },
+    {
+      text: 'Vercel Popular',
+      href: 'https://www.vercelpopular.com/',
+    },
   ],
   hero: {
     title: '你好，同路人',
