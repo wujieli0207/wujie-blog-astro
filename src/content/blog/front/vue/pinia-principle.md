@@ -70,10 +70,10 @@ export const useCounterStore = defineStore('counter', () => {
 
 ```ts
 <script setup>
-  import {storeToRefs} from 'pinia' import {useCounterStore} from
-  '@/stores/counter' const counterStore = useCounterStore() // 注意解构 store
-  需要通过 storeToRefs 方法 const {(count, increment)} =
-  storeToRefs(counterStore)
+  import {storeToRefs} from 'pinia' import {useCounterStore} from '@/stores/counter' 
+  const counterStore = useCounterStore() 
+  // 注意解构 store 需要通过 storeToRefs 方法 
+  const {(count, increment)} = storeToRefs(counterStore)
 </script>
 ```
 
