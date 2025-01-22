@@ -103,6 +103,10 @@ const siteConfig: SiteConfig = {
       text: 'Vercel Popular',
       href: 'https://www.vercelpopular.com/',
     },
+    {
+      text: 'Slogan Maker',
+      href: 'https://www.slogan-maker.org/',
+    },
   ],
   hero: {
     title: '你好，同路人',
