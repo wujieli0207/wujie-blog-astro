@@ -107,6 +107,10 @@ const siteConfig: SiteConfig = {
       text: 'Slogan Maker',
       href: 'https://www.slogan-maker.org/',
     },
+    {
+      text: 'AI Question Answer',
+      href: 'https://www.ai-question-answer.com',
+    },
   ],
   hero: {
     title: '你好，同路人',
