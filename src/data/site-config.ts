@@ -108,8 +108,8 @@ const siteConfig: SiteConfig = {
       href: 'https://www.slogan-maker.org/',
     },
     {
-      text: 'AI Question Answer',
-      href: 'https://www.ai-question-answer.com',
+      text: 'Senka AI',
+      href: 'https://www.senkaai.com/?ref=wujieli',
     },
   ],
   hero: {
