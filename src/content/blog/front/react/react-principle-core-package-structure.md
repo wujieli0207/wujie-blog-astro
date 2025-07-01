@@ -1,7 +1,7 @@
 ---
 title: 从 react 目录看 react 核心包结构
 excerpt: 从 react 目录看 react 核心包结构
-publishDate: '2023-11-13'
+publishDate: '2024-11-13'
 tags:
   - front-end-tech
 seo:

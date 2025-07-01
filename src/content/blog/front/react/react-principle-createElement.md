@@ -1,7 +1,7 @@
 ---
 title: 初识 react 原理，createElement 方法做了什么
 excerpt: 初识 react 原理，createElement 方法做了什么
-publishDate: '2023-11-05'
+publishDate: '2024-11-05'
 tags:
   - front-end-tech
 seo:
@@ -21,8 +21,8 @@ function Child({id}) {
 
 function App() {
   return (
-  	<div>
-    	<Child id="child">
+   <div>
+     <Child id="child">
     </div>
   )
 }

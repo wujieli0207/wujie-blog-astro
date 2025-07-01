@@ -1,7 +1,7 @@
 ---
 title: redux 中间件解码：扩展 redux 功能的秘密
 excerpt: 在上一篇文章：redux 原理探秘：从 redux 到 react-redux 和 redux-toolkit 中，介绍了 redux、react-redux 和 redux-toolkit 的核心实现原理，这篇文章我们继续分析 redux 的另一个特性：中间件
-publishDate: '2023-12-27'
+publishDate: '2024-12-27'
 tags:
   - front-end-tech
 seo:
