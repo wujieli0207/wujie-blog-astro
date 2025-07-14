@@ -100,16 +100,12 @@ const siteConfig: SiteConfig = {
       href: 'https://www.urltoany.com/',
     },
     {
-      text: 'Vercel Popular',
-      href: 'https://www.vercelpopular.com/',
-    },
-    {
-      text: 'Slogan Maker',
-      href: 'https://www.slogan-maker.org/',
-    },
-    {
       text: 'Senka AI',
       href: 'https://www.senkaai.com/?ref=wujieli',
+    },
+    {
+      text: 'mssg.me',
+      href: 'https://wujieli.mssg.me/',
     },
   ],
   hero: {
