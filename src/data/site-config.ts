@@ -115,6 +115,10 @@ const siteConfig: SiteConfig = {
       text: 'onee',
       href: 'https://onee.page/wujieli',
     },
+    {
+      text: 'cal',
+      href: 'https://cal.com/wujieli',
+    },
   ],
   hero: {
     title: '你好，同路人',
