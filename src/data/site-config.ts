@@ -119,6 +119,10 @@ const siteConfig: SiteConfig = {
       text: 'cal',
       href: 'https://cal.com/wujieli',
     },
+    {
+      text: 'egolinks',
+      href: 'https://egolinks.online/@wujieli',
+    },
   ],
   hero: {
     title: '你好，同路人',
