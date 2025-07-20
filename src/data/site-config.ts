@@ -108,8 +108,12 @@ const siteConfig: SiteConfig = {
       href: 'https://wujieli.mssg.me/',
     },
     {
-      text: 'Bento',
+      text: 'bento',
       href: 'https://bento.me/wujieli',
+    },
+    {
+      text: 'onee',
+      href: 'https://onee.page/wujieli',
     },
   ],
   hero: {
