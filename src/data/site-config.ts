@@ -123,6 +123,10 @@ const siteConfig: SiteConfig = {
       text: 'egolinks',
       href: 'https://egolinks.online/@wujieli',
     },
+    {
+      text: 'biosite',
+      href: 'bio.site/wujieli',
+    },
   ],
   hero: {
     title: '你好，同路人',
