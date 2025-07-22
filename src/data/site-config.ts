@@ -131,6 +131,10 @@ const siteConfig: SiteConfig = {
       text: 'evernote',
       href: 'https://lite.evernote.com/note/ee822ddd-d63c-3a17-ba51-452358a0c651',
     },
+    {
+      text: 'tapbio',
+      href: 'https://tap.bio/@wujieli/cards/965974',
+    },
   ],
   hero: {
     title: '你好，同路人',
