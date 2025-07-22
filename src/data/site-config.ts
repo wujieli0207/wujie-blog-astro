@@ -125,7 +125,11 @@ const siteConfig: SiteConfig = {
     },
     {
       text: 'biosite',
-      href: 'bio.site/wujieli',
+      href: 'https://bio.site/wujieli',
+    },
+    {
+      text: 'evernote',
+      href: 'https://lite.evernote.com/note/ee822ddd-d63c-3a17-ba51-452358a0c651',
     },
   ],
   hero: {
