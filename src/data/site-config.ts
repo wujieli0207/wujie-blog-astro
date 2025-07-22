@@ -135,6 +135,10 @@ const siteConfig: SiteConfig = {
       text: 'tapbio',
       href: 'https://tap.bio/@wujieli/cards/965974',
     },
+    {
+      text: 'carrd',
+      href: 'https://wujieli.carrd.co/',
+    },
   ],
   hero: {
     title: '你好，同路人',
