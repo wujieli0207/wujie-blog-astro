@@ -139,6 +139,10 @@ const siteConfig: SiteConfig = {
       text: 'carrd',
       href: 'https://wujieli.carrd.co/',
     },
+    {
+      text: 'folll',
+      href: 'https://folll.io/wujieli',
+    },
   ],
   hero: {
     title: '你好，同路人',
