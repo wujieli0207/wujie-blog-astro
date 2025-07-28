@@ -143,6 +143,14 @@ const siteConfig: SiteConfig = {
       text: 'folll',
       href: 'https://folll.io/wujieli',
     },
+    {
+      text: 'linktr',
+      href: 'https://linktr.ee/wujieli',
+    },
+    {
+      text: 'make.rs',
+      href: 'https://make.rs/@wujieli/projects',
+    },
   ],
   hero: {
     title: '你好，同路人',
