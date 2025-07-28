@@ -5,7 +5,7 @@ publishDate: '2024-06-29'
 isFeatured: true
 seo:
   image:
-    src: '/project/hack-thinking.png'
+    src: '/project/hack-thinking.jpg'
     alt: 独立开发沉思录
 ---
 
